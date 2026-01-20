@@ -1,0 +1,11 @@
+{
+  "name": "hello-lib",
+  "version": "1.0.0",
+  "description": "A simple library that displays hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "keywords": [],
+  "license": "MIT"
+}
