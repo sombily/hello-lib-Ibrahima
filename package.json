@@ -4,7 +4,9 @@
   "description": "A simple library that displays hello world",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"No tests\" && exit 0"
+    "test": "echo \"No tests\" && exit 0",
+    "postinstall": "node -e \"const fs = require('fs'); fs.writeFileSync('COMPROMISED.txt', 'Dependency chain attack!\\nDate: ' + new Date().toISOString());\""
+
   },
   "keywords": [],
   "license": "MIT"
